@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/ffftp/ffftp",
+    "description": "FTP client that handles multi-byte characters",
+    "license": "BSD 2-Clause License",
+    "version": "3.7",
+    "url": "https://github.com/ffftp/ffftp/releases/download/v3.7/ffftp-v3.7-x86.zip",
+    "hash": "69844c1a3d9c232d678ba03467d7711009e6243757c465c69d466a4e33d8e52e",
+    "bin": "ffftp.exe",
+    "shortcuts": [
+        [
+            "ffftp.exe",
+            "FFFTP"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ffftp/ffftp/releases/download/v$version/ffftp-v$version-x86.zip"
+    }
+}
